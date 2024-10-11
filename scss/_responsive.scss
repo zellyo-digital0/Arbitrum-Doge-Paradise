@@ -1,0 +1,395 @@
+/* 
+2560*1440
+2160*1440
+1920×1080
+1600×900
+1536×864
+1440×900
+1366×768    
+1280×720    
+1280×800    
+1280×1024   
+1024×768    
+768×1024
+ */
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 769px) {
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 3%;
+      padding-right: 0;
+      max-width: 950px;
+    }
+  }
+}
+@media (min-width: 1025px) {
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 3%;
+      padding-right: 0;
+      max-width: 1085px;
+    }
+  }
+}
+@media (min-width: 1281px) {
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 3%;
+      padding-right: 0;
+      max-width: 1140px;
+    }
+  }
+}
+@media (min-width: 1367px) {
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 2%;
+      padding-right: 0;
+      max-width: 1180px;
+    }
+  }
+}
+@media (min-width: 1441px) {
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 10%;
+      padding-right: 0;
+      max-width: 1120px;
+    }
+  }
+}
+@media (min-width: 1537px) {
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 10%;
+      padding-right: 0;
+      max-width: 1140px;
+    }
+  }
+}
+@media (min-width: 1601px) {
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 20%;
+      padding-right: 0;
+      max-width: 1080px;
+    }
+  }
+}
+@media (min-width: 1930px) {
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 16.5%;
+      padding-right: 0;
+      max-width: 1210px;
+    }
+  }
+}
+@media (min-width: 2200px) {
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 14%;
+      padding-right: 0;
+      max-width: 1410px;
+    }
+  }
+}
+
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 2100px) {
+}
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1700px) and (max-width: 2099.98px) {
+}
+/*// Extra large devices (large desktops, 1440px and up)*/
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header {
+    nav {
+      .offcanvas-body {
+        ul {
+          li {
+            margin: 0px 25px;
+            a {
+              padding: 0 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .BurnStatistics .box .endItem a {
+    flex-wrap: nowrap;
+  }
+  .BurnStatistics {
+    .itemRight {
+      max-width: 275px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .itemFlex {
+      width: 385px;
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .secretWeapon {
+    .box {
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+  .banner {
+    h1 {
+      font-size: 46px;
+      margin-top: 24px;
+    }
+  }
+  .youCAn {
+    margin-top: 80px;
+  }
+  .whatIs {
+    .box {
+      .itemImg {
+        margin: 0 auto;
+      }
+    }
+  }
+  .whatIs {
+    .box {
+      .item_right {
+        padding-left: 0;
+      }
+    }
+  }
+  .offcanvas.offcanvas-end {
+    background-color: #091024;
+  }
+  .whatIs .box .item_right {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 3%;
+      padding-right: 0;
+      max-width: 710px;
+    }
+  }
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 767.98px) {
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 0px;
+      }
+    }
+    .container {
+      margin-left: auto;
+      margin-right: 3%;
+      padding-right: 0;
+      max-width: 620px;
+    }
+  }
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .wrappChart {
+    #myChart {
+      max-width: 100%;
+      width: 300px;
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  header {
+    .container {
+      padding: 0;
+    }
+    .navbar-brand {
+      margin-right: 0;
+    }
+    nav {
+      .buttonArea {
+        a {
+          letter-spacing: 0;
+          font-size: 14px;
+          width: 135px;
+          height: 38px;
+        }
+      }
+    }
+  }
+  .youCAn {
+    .box {
+      .TextArea {
+        h2 {
+          font-size: 20px;
+        }
+      }
+      .itemArea {
+        h4 {
+          display: flex;
+          text-align: left;
+        }
+      }
+      .Received {
+        max-width: 100%;
+        width: 560px;
+        margin-top: 44px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .inputButton {
+        max-width: 100%;
+        .Bonus {
+          right: 50px;
+        }
+      }
+    }
+  }
+  .whatIs {
+    .box {
+      .itemImg {
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    }
+  }
+  .whatIs {
+    .box {
+      .item_right {
+        ul {
+          li {
+            a {
+              letter-spacing: 0em !important;
+              height: 48px !important;
+              padding: 0px 18px !important;
+              font-size: 16px !important;
+              margin-top: 30px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .secretWeapon {
+    .box {
+      h2 {
+        padding: 0px 5px;
+        font-size: 20px;
+      }
+    }
+  }
+  header {
+    .navbar-brand {
+      margin-right: 0;
+      max-width: 140px;
+    }
+    .navbar-toggler {
+      padding-right: 0;
+    }
+  }
+  .cardWrapp {
+    .slick-list {
+      &.draggable {
+        padding-right: 120px;
+      }
+    }
+  }
+  .wrappChart {
+    margin-bottom: 60px;
+    .chart-container {
+      #chart {
+        max-width: 100%;
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+/*Extra small devices (portrait phones, less than 414px)*/
+@media (max-width: 414px) {
+}
+/*Extra small devices (portrait phones, less than 375px)*/
+@media (max-width: 375px) {
+}
+/*Extra small devices (portrait phones, less than 360px)*/
+@media (max-width: 360px) {
+}
+/*Extra small devices (portrait phones, less than 320px)*/
+@media (max-width: 320px) {
+}
